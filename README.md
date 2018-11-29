@@ -34,6 +34,7 @@ Etapas de execução do trabalho
 	    - Criamos o projeto Maven;
 	    - Adicionamos as dependências por meio do Maven;
 	    - Alteramos o JRE para a versão 1.8 project->properties->Java compiler -> JDK Compliance: Compiler compliance level v1.8;
+	    - Download do tomcat;
 	    - Criamos um novo servidor (configuramos tomcat, geracao dinamica de paginas em project->properties->Project Facets: marcamos as opções Java v1.8, Dynamic Web Module v2.4 ou 3.0); Executar o passo a seguir: Project-> Maven-> Update project;
       - Adicionar o chromedriver no projeto (chromedriver.exe no Windows);
 
