@@ -19,8 +19,8 @@ Sobre teste de sistema web: https://www.softwaretestingclass.com/category/web-te
 
 Sobre teste caixa-preta (usar para elaborar caso de teste): https://www.softwaretestingclass.com/what-is-black-box-testing/
 
+Decidir se isto é um teste exploratório???
 
-[ ] TODO Decidir se isto é um teste exploratório???
 ---------------------------------------------------------------------------------------------------------
 Etapas de execução do trabalho 
 
