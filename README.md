@@ -2,15 +2,21 @@
 Trabalho de teste de software. Estou testando o sistema de consulta de encomendas do correios (https://www.linkcorreios.com.br/).
 
 Um bom tutorial ae: https://www.devmedia.com.br/introducao-aos-testes-funcionais-automatizados-com-junit-e-selenium-webdriver/28037
+
 Outro tutorial com selenium (não li): http://blog.caelum.com.br/testes-de-aceitacao-com-o-selenium/
 
 Tecnologias adotadas pelo Correios: https://stackshare.io/empresa-brasileira-de-correios-e-telegrafo
+
 Pra quem for usar o cucumber: https://docs.cucumber.io/guides/10-minute-tutorial/
 
 Dicas pra escrita de caso de teste: https://medium.com/cwi-software/dicas-para-escrita-de-casos-de-teste-ccea14a7fdd9
+
 Sobre o Selenium: https://www.quora.com/What-kind-of-Software-testing-Black-box-or-White-box-is-done-by-Selenuim
+
 Sobre teste exploratório: http://www.linhadecodigo.com.br/artigo/1102/testes-exploratorios-de-a-a-z.
+
 Sobre teste de sistema web: https://www.softwaretestingclass.com/category/web-testing/
+
 Sobre teste caixa-preta (usar para elaborar caso de teste): https://www.softwaretestingclass.com/what-is-black-box-testing/
 
 
@@ -20,10 +26,10 @@ Etapas de execução do trabalho
 
 - Planejamento dos testes (Criação e implementação dos cenários de teste)
   	
-	 [ ] TODO Criação dos casos de teste
+	 \n[ ] TODO Criação dos casos de teste
 	  (Falta Terminar)
 
-	 [ ] TODO Implementação
+	 \n[ ] TODO Implementação
 
 	    - Criamos o projeto Maven;
 	    - Adicionamos as dependências por meio do Maven;
