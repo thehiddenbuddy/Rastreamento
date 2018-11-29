@@ -26,10 +26,10 @@ Etapas de execução do trabalho
 
 - Planejamento dos testes (Criação e implementação dos cenários de teste)
   	
-	 \n[ ] TODO Criação dos casos de teste
+	 [ ] TODO Criação dos casos de teste
 	  (Falta Terminar)
 
-	 \n[ ] TODO Implementação
+	 [ ] TODO Implementação
 
 	    - Criamos o projeto Maven;
 	    - Adicionamos as dependências por meio do Maven;
