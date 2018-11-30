@@ -11,6 +11,7 @@ Levando em conta estas informações, realizamos um teste caixa-preta utilizando
 |------------------------|-------------------------------|----------------------------------------------|
 | Codigo de rastreamento | Um codigo valido (1); 	 | Entrada vazia (2) ou Codigo Invalido (3);	|
 
+Acessando este [link](https://www.correios.com.br/precisa-de-ajuda/como-rastrear-um-objeto) podemos obter mais informações sobre a estrutura do código de registro para rastrear uma encomenda e detalhes sobre o uso do serviço de rastreamento.
 
 Com base nas classes identificadas derivamos os seguintes casos de teste:
 
