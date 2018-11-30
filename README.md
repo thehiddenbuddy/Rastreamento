@@ -15,7 +15,7 @@ Acessando este [link](https://www.correios.com.br/precisa-de-ajuda/como-rastrear
 
 Com base nas classes identificadas derivamos os seguintes casos de teste:
 
-| CT  | TIpo de entrada codigo de rastreamento | Exemplo de entrada |
+| CT  | Tipo de entrada codigo de rastreamento | Exemplo de entrada |
 |-----|----------------------------------------|--------------------|
 | CT1 | Válido                                 | OG206681041BR      |
 | CT2 | Em branco                              |                    |
