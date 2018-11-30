@@ -59,7 +59,7 @@ FIM
 ---------------------------------------------------------------------------------------------
 Links para leitura
 
-Trabalho de teste de software. Estou testando o sistema de consulta de encomendas do correios (https://www.linkcorreios.com.br/).
+
 
 Um bom tutorial ae: https://www.devmedia.com.br/introducao-aos-testes-funcionais-automatizados-com-junit-e-selenium-webdriver/28037
 
