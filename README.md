@@ -2,7 +2,7 @@
 Neste projeto testamos (uma pequena parte) do sistema de rastreamento de encomendas do correios, este sistema pode ser acessado pelo link a seguir: [rastreamento_correios](https://www2.correios.com.br/sistemas/rastreamento/)
 é possível consultar a situação de seus objetos nos Correios.  Podendo ser utilizado o seu CPF/CNPJ ou até 50 códigos de 13 dígitos cada, separando-os com ponto e vírgula.  Ex:  AA987654321BR; AA100833276BR. 
 
-Testaremos apenas o caso de uso (não temos o UC real, logo deveríamos executar um teste exploratório? fica a pergunta) em que o usuário pesquisa apenas  01 (um) código de rastreamento.  Não testaremos entradas múltiplas, nem pesquisaremos utilizando CPF/CNPJ.
+Testaremos apenas o caso de uso (não temos o UC real, logo deveríamos executar um teste exploratório? fica a pergunta) em que o usuário pesquisa apenas  01 (um) código de rastreamento.  Não testaremos entradas múltiplas, nem testaremos consultas utilizando CPF/CNPJ.
 
 Levando em conta estas informações, realizamos um teste caixa-preta utilizando Partição de Equivalência. As classes identificadas, assim como as classes válidas e inválidas estão apresentadas na tabela a seguir:
 	
