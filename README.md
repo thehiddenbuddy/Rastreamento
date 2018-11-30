@@ -65,7 +65,7 @@ Um bom tutorial ae: https://www.devmedia.com.br/introducao-aos-testes-funcionais
 
 Outro tutorial com selenium (não li): http://blog.caelum.com.br/testes-de-aceitacao-com-o-selenium/
 
-Tecnologias adotadas pelo Correios: https://stackshare.io/empresa-brasileira-de-correios-e-telegrafo
+Tecnologias adotadas pelo Correios: https://stackshare.io/empresa-brasileira-de-correios-e-telegrafos
 
 Pra quem for usar o cucumber: https://docs.cucumber.io/guides/10-minute-tutorial/
 
