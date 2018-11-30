@@ -4,7 +4,6 @@ import static org.junit.Assert.assertEquals;
 
 import java.util.concurrent.TimeUnit;
 
-//import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -12,7 +11,7 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TesteRastreamentoCodigoValido{
+public class TesteRastreamentoCodigoEmBranco {
 
 	//Sistema web online
 	private String url = "https://www2.correios.com.br/sistemas/rastreamento/";
@@ -23,14 +22,12 @@ public class TesteRastreamentoCodigoValido{
 	WebDriver driver;
 
 	//setup dos ids dos elementos da pagina
-	private String inputCodigoValido = "OG206681041BR";
-	private String idTextField = "objetos";
 	private String idBotaoPesquisar = "btnPesq";
-	private String classeCampoCodigoSaida = "codSro";
+	private String idInfoMensagem = "infoMensagem";
 
 
 	//Comparação no assert teste
-	private String resultadoEsperado = "OG206681041BR";		//esperamos um campo contendo o cod de rastreamento
+	private String resultadoEsperado = "Por favor, digite de um a 50 códigos de objetos, ou um CPF/CNPJ válido";		//esperamos obter esta mensagem
 	private String resultadoObtidoTeste = null;
 
 	@Before
@@ -51,16 +48,6 @@ public class TesteRastreamentoCodigoValido{
 	@Test
 	public void testaConsultaCodigoValido() {
 
-		//Verifico se o campo textfield para entrada de codigo de rastreamento existe
-		try {
-			driver.findElement(By.id(idTextField)).sendKeys(inputCodigoValido);
-			driver.manage().timeouts().implicitlyWait(25,
-					TimeUnit.SECONDS);
-			System.out.println("----------------Textfield encontrado!------------------------");
-		}catch(NoSuchElementException e) {
-			System.out.println("CAMPO TEXFIELD NÃO ENCONTRADO PELA ID INFORMADA: " + idTextField);
-		}
-
 		//Verifico se o botao para pesquisa de codigo de rastreamento existe
 		try {
 			driver.findElement(By.id(idBotaoPesquisar)).click();
@@ -75,25 +62,25 @@ public class TesteRastreamentoCodigoValido{
 		//Verifico se o o codigo de rastreamento foi buscado e está no campo espeficado
 		try {
 			resultadoObtidoTeste = 
-					driver.findElement(By.className(classeCampoCodigoSaida)).getText();
+					driver.findElement(By.id(idInfoMensagem)).getText();
 			driver.manage().timeouts().implicitlyWait(25,
 					TimeUnit.SECONDS);
-			System.out.println("----------------Classe encontrada no resultado da busca!------------------------");
+			System.out.println("----------------ID do elemento encontrado!------------------------");
 		}catch(NoSuchElementException e) {
-			System.out.println("A classe não foi localizada no resultado da consulta: " + classeCampoCodigoSaida);
+			System.out.println("O ID do elemento não foi localizada: " + idInfoMensagem);
 		}
 
+		System.out.println(resultadoObtidoTeste);
 
-		//Teste encerrado
+		//Teste encerrado 
 		/*
-		 * Verificamos se a pagina com o resultado da consulta contém
-		 * o codigo de rastreamento no campo espeficiado pela classe codSro.
+		 * Verificamos se a mensagem exibida é igual à esperada.
 		 * Senão, o teste deve falhar. 
 		 */
-		
 		assertEquals(resultadoEsperado, resultadoObtidoTeste);
 
 		System.out.println("Teste concluido!");
 
 	}
+
 }
