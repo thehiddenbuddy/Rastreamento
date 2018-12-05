@@ -38,7 +38,7 @@ Os testes foram implementados no diretório "src/test/java". Nas tabelas a segui
 | Passo | Ação                                      | Resultado esperado                                                                                                            |
 |-------|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | 1     | Abrir a URL de rastreamento no navegador. | Página de rastreamento carregada.                                                                                             |
-| 2     | Clicar no botão "Enviar"                  | Não realizar consulta e emitir o alerta, a seguir:  "Por favor, digite de um a 50 códigos de objetos,  ou um CPF/CNPJ válido" |
+| 2     | Clicar no botão "Buscar"                  | Não realizar consulta e emitir o alerta, a seguir:  "Por favor, digite de um a 50 códigos de objetos,  ou um CPF/CNPJ válido" |
 
 
 **CT3** - Implementado pela classe [TesteRastreamentoCodigoInvalido.java](https://github.com/thehiddenbuddy/Rastreamento/blob/master/src/test/java/br/correios/rastreamento/teste/TesteRastreamentoCodigoInvalido.java)
